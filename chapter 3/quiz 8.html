@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>After Content Attr Quiz</title>
+
+    <style>
+        a:after {
+            content: " [" attr(href) "]";
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Css Example</h1>
+
+    <div>
+        <p>This is an example paragraph <a href="#one">Link one</a></p>
+        <p>This is an example paragraph <a href="#two">Link Two</a></p>
+        <p>This is an example paragraph <a href="#three">Link Three</a></p>
+        <p>This is an example paragraph <a href="#four">Link four</a></p>
+        <p>This is an example paragraph <a href="#five">Link five</a></p>
+        <p>This is an example paragraph <a href="#six">Link six</a></p>
+        <p>This is an example paragraph <a href="#seven">Link seven</a></p>
+    </div>
+
+</body>
+</html>
